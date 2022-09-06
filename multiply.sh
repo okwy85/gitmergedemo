@@ -2,7 +2,8 @@
 a=$1
 b=$2
 e=$5
-((figure=a*b*e))
+f=$6
+((figure=a*b*e*f))
 
 echo" figure is"$figure
 
